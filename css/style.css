@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 :root {
-  --primary-color: #f60f20;
+  --primary-color: #48958C;
   --secondary-color: #1b206e;
 }
 
@@ -62,8 +62,7 @@ section.home {
   position: absolute;
   top: 30px;
   left: 100px;
-  font-size: 2rem;
-  font-weight: 700;
+  width: 5%;
   z-index: 20;
 }
 
@@ -387,4 +386,8 @@ section.home {
   .services .service {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   }
+}
+
+.title {
+  width: 100%;
 }
